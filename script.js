@@ -59,7 +59,6 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  alert("Welcome to Planet Beta!\nHave fun!\nMade with ❤ by Judah Sanchez (Github: @pixl-8)");
   return (prompt("Enter Username"));
 }
 
