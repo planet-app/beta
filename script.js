@@ -59,7 +59,7 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  return (prompt("Enter Username") + " #" + prompt("Enter # ID (4 numbers. Don't include the #)");
+  return (prompt("Enter Username"));
 }
 
 function getRandomColor() {
